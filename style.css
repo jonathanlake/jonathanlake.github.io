@@ -40,6 +40,7 @@ body:before{
 
 .hero{
   padding: 1.25rem 2rem 1.1rem; /* tighter hero */
+  padding-top: 2.5rem; /* reduce if needed */
   border: 1px solid var(--border);
   background: linear-gradient(180deg, rgba(255,255,255,0.06), rgba(255,255,255,0.03));
   border-radius: 20px;
@@ -56,6 +57,17 @@ body:before{
   height: auto;
   margin: 0 auto 0.45rem; /* pull title closer */
   filter: drop-shadow(0 20px 40px rgba(0,0,0,0.7));
+}
+
+/* Logo spacing */
+.hero .logo {
+  margin-bottom: 1.25rem; /* tighten space below logo */
+}
+
+/* Title spacing */
+.hero h1 {
+  margin-top: 0;          /* remove default h1 top margin */
+  margin-bottom: 0.5rem;  /* small gap before subtitle */
 }
 
 h1{
