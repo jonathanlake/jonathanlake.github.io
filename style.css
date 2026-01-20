@@ -243,3 +243,22 @@ footer{
   .mods li{ flex-direction: column; align-items:flex-start; }
   .tag{ white-space: normal; }
 }
+
+.discord-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #fff;
+  background: #5865F2; /* Discord blurple */
+  transition: background 0.2s ease, transform 0.1s ease;
+}
+
+.discord-btn:hover {
+  background: #4752c4;
+  transform: translateY(-1px);
+}
+
