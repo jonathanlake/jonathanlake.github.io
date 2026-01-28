@@ -1,2 +1,2 @@
-# jonathanlake.github.io
-King's Lynne, a Hytale server
+# King's Lynne
+A Hytale PvP server.
